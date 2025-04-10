@@ -6,7 +6,23 @@
 header{
    padding-top: 1%;
 }
-
+a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+input::placeholder{
+    color: rgb(194, 137, 248);
+    font-family: "Montserrat", sans-serif;
+}
+.fontA{
+    font-weight:bolder;
+    font-size: 15px;
+    white-space: nowrap;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+      
+}
 .marginSite{
     margin: 0 15%;
 }
@@ -17,6 +33,10 @@ header{
     align-items: center;
 }
 
+.gapA{
+    gap: 10%;
+}
+
 .gapDiv{
     gap: 20%;
 }
@@ -24,3 +44,31 @@ header{
 .gapDivGradBlog{
     gap: 15%;
 }
+.submit-lente {
+    color: rgb(194, 137, 248);
+    height: 25px;
+    position:absolute;
+    top:0; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+  }
+  
+  .submit-line {
+    position: relative;
+    width: 300px;
+
+  }
+  
+  .submit-line input {
+    width: 100%;
+  }
+  .inputText{
+    padding-left: 15px;
+    border: 1px solid;
+    border-color: rgb(194, 137, 248);
+    height: 25px;
+    width: 300px;
+    border-radius: 0;
+  }
